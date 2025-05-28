@@ -168,5 +168,4 @@ if __name__ == '__main__':
     print(f"'{test_file_path}' created for testing.")
     print("Attempting to create directory structure...")
     create_directory_structure_from_file(test_file_path)
-    print("\nScript finished. Check your file system for the 'ai-multimodal-hub' directory and its contents.")
-    print(f"You can delete '{test_file_path}' and the 'ai-multimodal-hub/' directory if you wish.")
+    print("\nScript finished.")
