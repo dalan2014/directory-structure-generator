@@ -1,0 +1,26 @@
+ai-multimodal-hub/
+├── frontend/                 # Vue前端
+│   ├── public/
+│   │   └── media/           # 存放工具预览图片/视频
+│   ├── src/
+│   │   ├── assets/
+│   │   │   └── theme.css
+│   │   ├── components/
+│   │   │   ├── Sidebar.vue
+│   │   │   ├── HeaderBar.vue
+│   │   │   ├── ToolCard.vue
+│   │   │   └── IframeModal.vue
+│   │   ├── data/
+│   │   │   └── tools.json
+│   │   ├── utils/
+│   │   │   └── storage.js
+│   │   ├── App.vue
+│   │   └── main.js
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── README.md
+└── backend/                  # Python Flask后端
+    ├── app.py
+    ├── requirements.txt
+    └── config.py

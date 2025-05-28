@@ -1,0 +1,10 @@
+# Ignore the generated directory structure
+ai-multimodal-hub/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders (optional but good practice)
+.venv/
+venv/
